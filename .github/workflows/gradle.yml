@@ -9,6 +9,11 @@ name: Java CI with Gradle
 
 on:
   push:
+
+    branches: [ demo ]
+  pull_request:
+    branches: [ demo ]
+
     branches: [ Karthikset-patch-1 ]
   pull_request:
     branches: [ Karthikset-patch-1 ]
